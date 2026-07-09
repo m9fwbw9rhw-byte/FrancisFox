@@ -30,7 +30,7 @@ body{
 
     background:
         linear-gradient(rgba(8,10,12,.78),rgba(8,10,12,.88)),
-        url("images/london-bg.jpg");
+        url("images/london.png");
 
     background-size:cover;
     background-position:center;
@@ -281,7 +281,7 @@ section{
 
     background:
         linear-gradient(rgba(10,10,10,.65),rgba(10,10,10,.75)),
-        url("images/london-bg.jpg");
+        url("images/london.png");
 
     background-position:center;
     background-size:cover;
