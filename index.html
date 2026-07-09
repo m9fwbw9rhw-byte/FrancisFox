@@ -1,57 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>King of Stamps | Rhod Smith</title>
+
+    <meta name="description"
+        content="King of Stamps - A Francis Fox Story by Rhod Smith. A historical mystery set in Edwardian London. Coming Soon.">
+
+    <meta property="og:title" content="King of Stamps">
+    <meta property="og:description"
+        content="A Francis Fox Story by Rhod Smith. Coming Soon.">
+    <meta property="og:image" content="images/best.png">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="images/best.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="overlay">
-
     <header>
-        <h2>RHOD SMITH</h2>
-    </header>
 
-    <main>
-
-        <img src="best.png" alt="King of Stamps Book Cover" class="book">
-
-        <h1>King of Stamps</h1>
-
-        <h3>A Francis Fox Story</h3>
-
-        <div class="coming">
-            COMING SOON
+        <div class="logo">
+            RHOD SMITH
         </div>
 
+        <nav>
+            <a href="#story">The Story</a>
+            <a href="#signup">Updates</a>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="hero-text">
+
+                <p class="subtitle">
+                    A Francis Fox Story
+                </p>
+
+                <h1>
+                    KING OF STAMPS
+                </h1>
+
+                <div class="coming-soon">
+                    COMING SOON
+                </div>
+
+                <p class="tagline">
+                    The destroyer of stamps is back, and he's commited a murder.
+                </p>
+
+                <p class="description">
+                    A gripping historical mystery set in Edwardian London.
+                </p>
+
+                <a href="#signup" class="button">
+                    Notify Me
+                </a>
+
+            </div>
+
+            <div class="hero-book">
+
+                <img src="images/best.png"
+                    alt="King of Stamps book cover">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="story" class="story">
+
+        <div class="container">
+
+            <h2>The Story</h2>
+
+            <p>
+
+                London. 1908.
+
+            </p>
+
+            <p>
+
+                When a seemingly ordinary stamp collection leads Francis Fox
+                into the darkest corners of Edwardian London,
+                he discovers that some secrets are worth killing for.
+
+            </p>
+
+            <p>
+
+                As the mystery deepens,
+                every clue uncovers another lie.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="quote">
+
+        <blockquote>
+
+            “He was stamped to death”
+
+        </blockquote>
+
+    </section>
+
+    <section id="signup" class="signup">
+
+        <div class="container">
+
+            <h2>
+
+                Be the First to Know
+
+            </h2>
+
+            <p>
+
+                Join my mailing list for release updates,
+                exclusive content and future Francis Fox novels.
+
+            </p>
+
+            <form action="https://formspree.io/f/mykqqple"
+                method="POST">
+
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required>
+
+                <button type="submit">
+
+                    Notify Me
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h3>Rhod Smith</h3>
+
         <p>
-            A gripping historical mystery set in Edwardian London.
+            Author of the Francis Fox Novels
         </p>
 
-        <form action="https://formspree.io/f/YOURFORMID" method="POST">
+        <p>
 
-            <input
-                type="email"
-                name="email"
-                placeholder="Enter your email"
-                required>
+            © 2026 Rhod Smith
 
-            <button type="submit">
-                Notify Me
-            </button>
+        </p>
 
-        </form>
+    </footer>
 
-    </main>
-
-</div>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
